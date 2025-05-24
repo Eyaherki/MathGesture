@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dessin avec la main</title>
+</head>
+<body>
+    <h1>Dessine avec ton doigt !</h1>
+    <img src="{{ url_for('video_feed') }}" width="800">
+    <br><br>
+    <button onclick="window.location.href='/set_color/pink'">Rose</button>
+    <button onclick="window.location.href='/set_color/blue'">Bleu</button>
+    <button onclick="window.location.href='/set_color/green'">Vert</button>
+    <button onclick="window.location.href='/set_color/eraser'">Effaceur</button>
+    <br><br>
+    <button onclick="window.location.href='/recognize_math'">Reconnaître Math</button>
+</body>
+</html>
+

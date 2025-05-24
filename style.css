@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: #343a40;
+    font-weight: 600;
+}
+
+video, img {
+    border: 5px solid #0d6efd;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.container {
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 30px;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
